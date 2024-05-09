@@ -50,7 +50,7 @@ h3{
     color:rgb(255, 251, 0);
     font-size: 150%;
     text-align: justify;
-    padding: 35px;
+    padding: 20px;
     text-shadow: 2px 2px red;
 }
 
@@ -62,7 +62,14 @@ h4{
 }
 
 td{
-    margin: auto;
+    padding-left: 10px;
+    text-align: left;
+}
+
+table{
+    border-spacing: 10px;
+    border-collapse: separate;
+    text-align: left;
 }
 
 header{
@@ -71,8 +78,20 @@ header{
 }
 
 header button{
-    background-color: crimson;
+    background-color: rgb(39, 83, 104);
     width: 200%;
+    border-radius: 20px;
+    border: none;
+}
+
+header img{
+    width: 5%;
+    margin: auto;
+    padding: 0;
+}
+
+a:link { 
+    text-decoration: none; 
 }
 
 button:hover{
@@ -111,6 +130,11 @@ ul{
     color: gold;
 }
 
+li{
+    text-align: justify;
+    padding: 10px;
+}
+
 iframe{
     border-radius: 50px;
 }
@@ -118,7 +142,7 @@ iframe{
 .descricao{
     width: 60%;
     height: 40%;
-    text-align: center;   
+    text-align: justify;   
     margin-left: auto;
     margin-right: auto;
 }
