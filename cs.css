@@ -63,13 +63,15 @@ h4{
 
 td{
     padding-left: 10px;
-    text-align: left;
+    text-align: center;
+    max-width: 100%;
 }
 
 table{
     border-spacing: 10px;
-    border-collapse: separate;
-    text-align: left;
+    width: 100%;
+    display: inline-block;
+    flex-wrap: wrap;
 }
 
 header{
@@ -86,7 +88,6 @@ header button{
 
 header img{
     width: 5%;
-    margin: auto;
     padding: 0;
 }
 
@@ -101,21 +102,13 @@ button:hover{
     transition: all 1s ease-out;
 }
 
-.title{
-    width: auto;
-}
-
-.title table{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
 img{
     text-align: center;
     vertical-align: middle;
     opacity: 75%;
     padding-bottom: 15px;
     height: auto;
+    padding-right: 0;
 }
 
 img:hover {
