@@ -6,6 +6,7 @@ Converse nos fóruns com pessoas de vários lugares pelos fóruns (não implemen
 -----INSTRUÇÕES-----
 
 1-Baixe o arquivo ZIP da página
+
 2-Extraia e rode o arquivo index.html
 
 Divirta-se!
